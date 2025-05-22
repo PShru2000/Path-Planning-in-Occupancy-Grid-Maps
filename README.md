@@ -130,8 +130,8 @@ Follow the cells step by step to:
 
 ### Distance of the path
 
-**Shortest possible distance**:  385.77843381920667
-**Distance covered by shortest possible path:**  803.1147904132627
+* **Shortest possible distance**:  385.77843381920667
+* **Distance covered by shortest possible path:**  803.1147904132627
 
 ---
 ### PRM Results
