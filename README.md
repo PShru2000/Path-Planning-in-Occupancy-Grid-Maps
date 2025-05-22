@@ -24,11 +24,15 @@ The implemented system supports:
 
 ## Grid Maps USed
 
-### Map 1 – Original Probabilistic Environment
-![Map 1](probablistic_occupancy_gridmap.png)
+<p align="center">
+  <img src="probablistic_occupancy_gridmap.png" alt="Map 1" width="45%" style="margin-right: 10px;"/>
+  <img src="binary_occupancy_grid.png" alt="Map 2" width="45%"/>
+</p>
 
-### Map 2 – Thresholded Binary Occupancy Map
-![Map 2](binary_occupancy_grid.png)
+<p align="center">
+  <strong>Left:</strong> Original Probabilistic Environment &nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>Right:</strong> Thresholded Binary Occupancy Map
+</p>
 
 ---
 
