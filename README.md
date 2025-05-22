@@ -22,7 +22,7 @@ The implemented system supports:
 
 ---
 
-## Grid Maps USed
+## Grid Maps Used
 
 <p align="center">
   <img src="probablistic_occupancy_gridmap.png" alt="Map 1" width="25%" style="margin-right: 10px;"/>
@@ -122,6 +122,18 @@ Follow the cells step by step to:
 * **Visualization**: Shortest path overlaid on grid map
 * **Optimality**: Always produces the lowest-cost path in the grid
 
+* The shortest path in the occupancy grid from the starting point s = (635, 140) to the goal g = (350, 400) is plotted below such that this optimal path is overlaid on the binary occupancy image, and its total length is then calculated.
+  
+<p align="center">
+  <img src="A_path.png" alt="Map 1" width="25%" style="margin-right: 10px;"/>
+</p>
+
+### Distance of the path
+
+**Shortest possible distance**:  385.77843381920667
+**Distance covered by shortest possible path:**  803.1147904132627
+
+---
 ### PRM Results
 
 * **Graph**: 2500 random free points, `dmax = 75` pixels
@@ -129,6 +141,22 @@ Follow the cells step by step to:
 * **Visualization**: PRM structure and path displayed on map
 * **Performance**: Faster on sparse or high-dimensional spaces
 
+* Constructed a PRM on the occupancy grid with N = 2500 samples and a maximum local search radius of dmax = 75 voxels. Plotted the resulting graph overlaid on binary occupancy grid map
+
+<p align="center">
+  <img src="PRM.png" alt="Map 1" width="25%" style="margin-right: 10px;"/>
+</p>
+
+* Constructing a PRM, finding a path from s = (635, 140) to g = (350, 400). Plotting this path overlaid on binary occupancy map, and calculating its total length
+
+
+<p align="center">
+  <img src="PRM2.png" alt="Map 1" width="25%" style="margin-right: 10px;"/>
+</p>
+
+### Distance of the path
+
+**Distance covered by shortest possible path:  789.3816774747326
 ---
 
 ## Testing
