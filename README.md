@@ -22,6 +22,16 @@ The implemented system supports:
 
 ---
 
+## Grid Maps USed
+
+### Map 1 – Original Probabilistic Environment
+![Map 1](probablistic_occupancy_gridmap.png)
+
+### Map 2 – Thresholded Binary Occupancy Map
+![Map 2](binary_occupancy_grid.png)
+
+---
+
 ## Problem Definition
 
 Implemented two algorithms to compute the shortest feasible path from:
