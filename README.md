@@ -25,8 +25,8 @@ The implemented system supports:
 ## Grid Maps USed
 
 <p align="center">
-  <img src="probablistic_occupancy_gridmap.png" alt="Map 1" width="45%" style="margin-right: 10px;"/>
-  <img src="binary_occupancy_grid.png" alt="Map 2" width="45%"/>
+  <img src="probablistic_occupancy_gridmap.png" alt="Map 1" width="25%" style="margin-right: 10px;"/>
+  <img src="binary_occupancy_grid.png" alt="Map 2" width="25%"/>
 </p>
 
 <p align="center">
