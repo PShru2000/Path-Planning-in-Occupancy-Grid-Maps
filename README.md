@@ -1,6 +1,6 @@
 # Path Planning in Occupancy Grid Maps using A\* and Probabilistic Roadmaps (PRM)
 
-Goal of the project is to implement two powerful path planning algorithms—**A\*** and **Probabilistic Roadmaps (PRM)** , designed to navigate a robot through a 2D binary occupancy grid map. These algorithms are applied to environments with obstacles, enabling the robot to find collision-free paths from a specified start to goal location.
+Goal of the project is to implement two powerful path planning algorithms **A\*** and **Probabilistic Roadmaps (PRM)** , designed to navigate a robot through a 2D binary occupancy grid map. These algorithms are applied to environments with obstacles, enabling the robot to find collision-free paths from a specified start to goal location.
 
 ## Overview
 
@@ -156,7 +156,7 @@ Follow the cells step by step to:
 
 ### Distance of the path
 
-**Distance covered by shortest possible path:  789.3816774747326
+* **Distance covered by shortest possible path:**  789.3816774747326
 ---
 
 ## Testing
